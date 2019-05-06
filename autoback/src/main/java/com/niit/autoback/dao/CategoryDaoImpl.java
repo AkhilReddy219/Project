@@ -45,6 +45,7 @@ public class CategoryDaoImpl implements CategoryDao {
 		catch(Exception e)
 		{
 			System.out.println(e.getMessage());
+			System.out.println("Category Not Updated");
 			return false;
 		}
 	}
